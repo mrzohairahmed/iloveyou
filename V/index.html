@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Wife ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Intro Page -->
+    <div id="introPage">
+        <h1 class="intro-text">CLICK FOR A BIG SURPRISE!!</h1>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="flowers" id="flowers"></div>
+    <div class="hearts" id="hearts"></div>
+    <div class="explosion" id="explosion"></div>
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+        <source src="AM.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Main Content (Hidden at Start) -->
+    <div id="mainContent" style="display: none;">
+
+        <!-- Front Page -->
+        <div id="frontPage" class="center">
+            <h1 class="glow-text">
+                Will You Be My Valentine? 
+                <span class="rotating-heart">❤️</span>
+            </h1>
+
+            <button onclick="openLetter()">YESSSSSSSSSSSS!!!</button>
+        </div>
+
+        <!-- Letter Page -->
+        <div id="letterPage" class="hidden">
+
+            <div class="side-images left-side">
+                <img src="A4.jpeg" class="tilt1">
+                <img src="A2.jpeg" class="tilt2">
+            </div>
+
+            <div class="letter">
+                <h2>To Mrs Ahmed</h2>
+                <p id="typedText"></p>
+            </div>
+
+            <div class="side-images right-side">
+                <img src="A3.jpeg" class="tilt3">
+                <img src="A1.jpeg" class="tilt4">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
